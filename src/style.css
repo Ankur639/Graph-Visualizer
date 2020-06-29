@@ -1,0 +1,217 @@
+.container {
+  margin: 0;
+}
+
+.node circle {
+  fill: #f3f3ff;
+  stroke: #2593b8;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 11px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #444;
+  fill: #f4f4f4;
+  text-shadow: 0 1px 4px black;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node.searchIncluded text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.node.searchExcluded text {
+  opacity: 0.6;
+}
+
+path.link {
+  fill: none;
+  stroke: #2593b8;
+  stroke-width: 1.5px;
+}
+
+body {
+  background-color: #242424;
+  overflow: visible;
+}
+
+span {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #f4f4f4;
+  text-shadow: 0 1px 4px black;
+  float: right;
+}
+
+input {
+  padding: 5px 12px;
+  border: 0;
+  border-radius: 50px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-image: linear-gradient(to bottom, #337ab7 0%, #265a88 100%);
+  border: 0;
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    0 1px 1px rgba(0, 0, 0, 0.075);
+  padding: 5px 12px;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-image: linear-gradient(to top, #337ab7 0%, #265a88 100%);
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+  background-image: linear-gradient(to top, #337ab7 0%, #265a88 100%);
+}
+
+div.custom-container {
+  background-color: #242424;
+  height: 800px;
+  width: 1250px;
+  padding-left: 0px;
+}
+
+svg.custom .node circle {
+  fill: #f3f3ff;
+  stroke: #2593b8;
+  stroke-width: 1.5px;
+}
+
+svg.custom .node text {
+  font-size: 11px;
+  background-color: #444;
+  fill: #f4f4f4;
+  text-shadow: 0 1px 4px black;
+}
+
+svg.custom .node {
+  cursor: pointer;
+}
+
+svg.custom path.link {
+  fill: none;
+  stroke: #2593b8;
+  stroke-width: 1.5px;
+}
+
+.lds-roller {
+  display: inline-block;
+  position: center;
+  width: 80px;
+  height: 80px;
+  margin-left: 600px;
+  margin-right: 7000px;
+  margin-top: 150px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+  position: center;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgb(61, 47, 17);
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.center {
+  text-align: center;
+}
+
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.move {
+  margin-top: 10px;
+  color: red;
+}
+
+.m {
+  width: 1000px;
+  height: 300px;
+}
+
+.vi {
+  width: 1000px;
+  height: 300px;
+}
