@@ -35,7 +35,7 @@ path.link {
   stroke-width: 1.5px;
 }
 
-body {
+* {
   background-color: #242424;
   overflow: visible;
 }
