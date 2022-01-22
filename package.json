@@ -10,7 +10,7 @@
     "bootstrap": "^4.5.0",
     "clone": "^2.1.2",
     "jquery": "^3.5.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
